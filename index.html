@@ -1,14 +1,1 @@
-<script type="text/javascript" src="https://tvdg45.github.io/shopping-cart-app-node-socket.io/socket.io/socket.io.js"></script>
-<script>
-var socket = io.connect("https://tvdg45.github.io/shopping-cart-app-node-socket.io");
-  
-socket.on("refresh_cart_window", function(data) {
-  
-  alert('yes');
-});
-  
-window.onload = function() {
-  
-  socket.emit("refresh_cart_window", "yes");
-}
-</script>
+
